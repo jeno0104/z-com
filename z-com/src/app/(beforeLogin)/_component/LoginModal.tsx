@@ -1,6 +1,7 @@
 "use client";
 
 import style from "@/app/(beforeLogin)/_component/login.module.css";
+import Link from "next/link";
 import { useState } from "react";
 export default function LoginModal() {
   const [id, setId] = useState();
@@ -62,7 +63,9 @@ export default function LoginModal() {
             </div>
             <div className={style.message}>{message}</div>
             <div className={style.modalFooter}>
-              <button className={style.actionButton}>로그인하기</button>
+              <Link href="/home" className={style.actionButton}>
+                로그인하기
+              </Link>
             </div>
           </form>
         </div>
