@@ -3,6 +3,7 @@ import style from "@/app/(afterLogin)/layout.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import ZLogo from "../../../public/zlogo.png";
+import NavMenu from "./_component/NavMenu";
 export default function AfterLoginLayout({
   children,
 }: {
@@ -20,6 +21,11 @@ export default function AfterLoginLayout({
                 </div>
               </Link>
             </div>
+            <nav>
+              <ul>
+                <NavMenu />
+              </ul>
+            </nav>
           </section>
         </header>
         <div className={style.rightSectionWrapper}>
