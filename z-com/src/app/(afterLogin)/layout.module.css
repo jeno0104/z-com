@@ -13,14 +13,24 @@
 
 .leftSection {
   width: 275px;
-
   height: 100vh;
 }
+
 .leftSectionFixed {
   position: fixed;
   width: inherit;
   background-color: orange;
   height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.leftSectionFixed nav {
+  flex: 0.98;
+}
+.leftSectionFixed nav li {
+  list-style-type: none;
+}
+.leftSectionFixed div {
 }
 .logo {
   display: inline-block;
@@ -36,6 +46,29 @@
   justify-content: center;
   align-items: center;
 }
+.ul {
+  padding: 0;
+}
+.postButton {
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+  background-color: rgb(29, 155, 240);
+  width: 234px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 26px;
+  text-decoration: none;
+}
+.postButton:hover {
+  background-color: rgb(26, 140, 216);
+}
+
 .logoPill:hover {
   background-color: rgba(15, 20, 25, 0.1);
 }
