@@ -19,7 +19,7 @@
 .leftSectionFixed {
   position: fixed;
   width: inherit;
-  background-color: orange;
+
   height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -79,7 +79,6 @@
   flex-grow: 1;
 }
 .rightSectionInner {
-  background-color: aqua;
   height: 100%;
   width: 990px;
   display: flex;
@@ -87,12 +86,10 @@
 }
 
 .main {
-  background-color: aliceblue;
   width: 600px;
   height: 200dvh;
 }
 .rightSection {
-  background-color: blue;
   width: 350px;
   height: 100%;
 }
