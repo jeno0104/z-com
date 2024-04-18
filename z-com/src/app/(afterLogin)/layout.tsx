@@ -68,7 +68,6 @@ export default function AfterLoginLayout({
           </div>
         </div>
       </div>
-      {children}
     </div>
   );
 }

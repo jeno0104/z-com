@@ -9,6 +9,15 @@ export default function Home() {
       <TabProvider>
         <Tab />
         <PostForm />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
       </TabProvider>
     </main>
   );
