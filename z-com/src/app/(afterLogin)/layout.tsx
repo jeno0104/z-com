@@ -9,11 +9,11 @@ import LogoutButton from "./_component/LogoutButton";
 import TrendSection from "./_component/TrendSection";
 import { inherits } from "util";
 import FollowRecommend from "./_component/FollowRecommend";
-export default function AfterLoginLayout({
-  children,
-}: {
+type Props = {
   children: ReactNode;
-}) {
+  modal: ReactNode;
+};
+export default function AfterLoginLayout({ children, modal }: Props) {
   const me = {
     id: "jaehoon",
     image: "asd",
@@ -68,6 +68,7 @@ export default function AfterLoginLayout({
           </div>
         </div>
       </div>
+      {modal}
     </div>
   );
 }

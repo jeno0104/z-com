@@ -16,7 +16,7 @@ export default function Post() {
     },
     Images: [],
     createdAt: new Date(),
-    content: "dayjs good!!!",
+    content: "오늘도 좋은 하루 되세요!!",
   };
   return (
     <article className={style.post}>
